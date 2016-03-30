@@ -1,3 +1,10 @@
+##########################################
+# CSEP utility tool                      #
+#                                        #
+# Author: Felix Glas                     #
+# License: CC0 1.0 Universal             #
+##########################################
+
 #include <algorithm>
 #include <cstdlib>
 #include <cctype>
