@@ -1,9 +1,9 @@
-##########################################
-# CSEP utility tool                      #
-#                                        #
-# Author: Felix Glas                     #
-# License: CC0 1.0 Universal             #
-##########################################
+/******************************************
+ * CSEP utility tool                      *
+ *                                        *
+ * Author: Felix Glas                     *
+ * License: CC0 1.0 Universal             *
+ ******************************************/
 
 #include <algorithm>
 #include <cstdlib>
@@ -21,9 +21,9 @@ int main(int argc, char* argv[]) {
     // บ Check program input arguments. บ
     // ศออออออออออออออออออออออออออออออออผ
     if (argc <= 2 || argc >= 5) {
-        std::cout << "CSort column sort utility. Version " << VERSION << std::endl;
+        std::cout << "CSep column separate utility. Version " << VERSION << std::endl;
         std::cout << std::endl;
-        std::cout << "Usage: CSORT <source> [target] <delimit>" << std::endl;
+        std::cout << "Usage: CSEP <source> [target] <delimit>" << std::endl;
         return EXIT_FAILURE;
     }
 
