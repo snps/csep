@@ -26,6 +26,6 @@ Go to the **csep** source-file directory and run **make**. Copy **csep.exe** to 
 
 * **source** - Source file
 * **target** (optional) - Output file
-* **delimit** - Sequence of delimiter characters used to separated values in the source file, _e.g._, `,` (comma) in CSV files.
+* **delimit** - Sequence of delimiter characters used to separate values in the source file, _e.g._, `,` (comma) in CSV files.
 
 When no target is specified, output is written to source file.
